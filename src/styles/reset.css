@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* Body styles */
+body {
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+
+/* Header styles */
+.horizontal {
+    width: 100%;
+}
+
+.horizontal li {
+    display: block;
+    float: left;
+    width: 50%;
+    border: 3px solid white;
+}
+
+.horizontal > ul > li:first-child { border-right-color: transparent; }
+.horizontal > ul > li:last-child  { border-left-width:  transparent; }
+
+/* Footer styles */
+footer {
+    width: 100%;
+}
