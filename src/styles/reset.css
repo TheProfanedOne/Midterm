@@ -9,6 +9,7 @@ body {
 /* Header styles */
 .horizontal {
     width: 100%;
+    height: auto;
 }
 
 .horizontal li {
