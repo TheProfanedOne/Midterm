@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+/* DOM styles */
+
+html {
+    background-color: white;
+}
+
 /* Body styles */
 body {
     -webkit-box-sizing: border-box;
@@ -41,4 +47,5 @@ body {
 footer {
     clear: both;
     width: 100%;
+    text-align: center;
 }
