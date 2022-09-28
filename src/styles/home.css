@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+/* Layer styles */
+#layer_container {
+    clear: both;
+}
+
 .layer {
     width: 100%;
 }
