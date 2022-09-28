@@ -14,13 +14,11 @@ body {
 .horizontal li {
     display: block;
     float: left;
-    padding-left: auto;
-    padding-right: auto;
     border: 3px solid white;
 }
 
-.horizontal li:first-child { border-right-color: transparent; }
-.horizontal li:last-child  { border-left-width:  transparent; }
+.horizontal li:first-child { border-right-color: transparent !important; }
+.horizontal li:last-child  { border-left-width:  transparent !important; }
 
 .horizontal a { color: cyan; }
 
