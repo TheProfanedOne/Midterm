@@ -22,6 +22,8 @@ body {
 .horizontal > ul > li:first-child { border-right-color: transparent; }
 .horizontal > ul > li:last-child  { border-left-width:  transparent; }
 
+.horizontal a { color: cyan; }
+
 /* Footer styles */
 footer {
     clear: both;
