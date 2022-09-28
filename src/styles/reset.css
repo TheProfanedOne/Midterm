@@ -18,7 +18,8 @@ body {
     display: block;
     float: left;
     width: 50%;
-    border: 3px solid white;
+    text-align: center;
+    border: 1px solid white;
 }
 
 .horizontal li:first-child { border-right-width: 0px !important; }
