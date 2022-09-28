@@ -2,8 +2,13 @@
 
 /* Body styles */
 body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     background-color: rgb(58, 58, 58);
     color: white;
+    width: 75vw;
+    margin: 0px auto;
 }
 
 /* Header styles */
