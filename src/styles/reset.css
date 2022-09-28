@@ -24,5 +24,6 @@ body {
 
 /* Footer styles */
 footer {
+    clear: both;
     width: 100%;
 }
