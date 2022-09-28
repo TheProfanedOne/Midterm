@@ -2,9 +2,9 @@
 
 /* DOM styles */
 
-html {
+/* html {
     background-color: white;
-}
+} */
 
 /* Body styles */
 body {
@@ -15,6 +15,7 @@ body {
     color: white;
     width: 65vw;
     margin: 0px auto;
+    outline: 1px solid red;
 }
 
 /* Header styles */
