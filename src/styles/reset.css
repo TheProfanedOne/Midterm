@@ -9,7 +9,6 @@ body {
 /* Header styles */
 .horizontal {
     width: 100%;
-    height: auto;
 }
 
 .horizontal li {
@@ -17,6 +16,7 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
+    font-size: 1em;
     float: left;
     width: 50%;
     text-align: center;
