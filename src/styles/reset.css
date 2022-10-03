@@ -27,6 +27,10 @@ body {
     width: 100%;
 }
 
+.horizontal > ul {
+    width: 100%;
+}
+
 .horizontal li {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
