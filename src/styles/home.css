@@ -12,8 +12,27 @@
 /* Layer styles */
 #layer_container {
     clear: both;
+    position: relative;
 }
 
 .layer {
     width: 100%;
+}
+
+/* Top and Logo styles */
+#top {
+    position: relative;
+    height: 300px;
+}
+
+#logo {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+}
+
+#logo::before {
+    
 }
