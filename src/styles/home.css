@@ -23,6 +23,7 @@
 #top {
     position: relative;
     height: 300px;
+    overflow: hidden;
 }
 
 #logo {
