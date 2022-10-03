@@ -44,6 +44,7 @@ body {
     width: 50%;
     text-align: center;
     border: 1px solid white;
+    background-color: darkblue;
 }
 
 .horizontal li:first-child { border-right-width: 0px !important; }

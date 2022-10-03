@@ -1,5 +1,14 @@
 @charset "utf-8";
 
+/* Header styles */
+.horizontal > ul > li:first-child {
+    background-color: cyan;
+}
+
+.horizontal > ul > li:first-child > a {
+    color: darkblue;
+}
+
 /* Layer styles */
 #layer_container {
     clear: both;
