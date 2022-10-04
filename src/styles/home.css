@@ -9,7 +9,7 @@
     color: darkblue;
 }
 
-/* Layer styles */
+/* All Layer styles */
 #layer_container {
     clear: both;
     position: relative;
@@ -19,7 +19,7 @@
     width: 100%;
 }
 
-/* Top and Logo styles */
+/* Top Layer styles */
 #top {
     position: relative;
     height: 300px;
@@ -34,14 +34,14 @@
     transform: translate(-48%, -50%) scale(0.9);
 }
 
-/* Middle styles */
+/* Middle Layer styles */
 #middle {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
 #middle_video {
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 #middle_text {
@@ -53,5 +53,31 @@
     width: 85%;
     margin-left: 5%;
     margin-right: auto;
-    vertical-align: middle;
 }
+
+/* Bottom Layer styles */
+#bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    height: 270px;
+}
+
+#bottom_map {
+    margin: auto auto;
+}
+
+#map_img {
+    border-radius: 10%;
+    box-shadow: rgb(146, 146, 146) 15px 15px 15px;
+}
+
+#bottom_contact {
+    border: 1px solid #FFF;
+    border-radius: 20%;
+    padding: 3rem;
+    margin: auto auto;
+}
+
+/* Figcaption styles */
+figcaption { text-align: center; }

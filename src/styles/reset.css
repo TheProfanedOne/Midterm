@@ -51,7 +51,7 @@ header {
     background-color: hsl(240, 100%, 27.25%);
 }
 
-.horizontal a { color: cyan; }
+a { color: cyan; }
 
 /* Footer styles */
 footer {
