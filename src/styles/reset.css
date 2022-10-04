@@ -47,11 +47,8 @@ header {
     float: left;
     width: 50%;
     text-align: center;
-    background-color: darkblue;
+    background-color: hsl(240, 100%, 27.25%);
 }
-
-.horizontal li:first-child { border-right-width: 0px !important; }
-.horizontal li:last-child  { border-left-width:  0px !important; }
 
 .horizontal a { color: cyan; }
 
