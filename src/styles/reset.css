@@ -67,3 +67,6 @@ footer {
     position: absolute;
     bottom: 0%;
 }
+
+footer::before { content: "\269C "; }
+footer::after  { content: " \269C"; }
