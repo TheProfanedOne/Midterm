@@ -3,7 +3,8 @@
 /* DOM styles */
 
 html {
-    background-color: white;
+    background: white url(../images/background.jpg) left top / 399px 300px
+                repeat border-box border-box fixed;
 }
 
 /* Body styles */
