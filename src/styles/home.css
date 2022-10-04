@@ -33,3 +33,25 @@
     left: 50%;
     transform: translate(-48%, -50%) scale(0.9);
 }
+
+/* Middle styles */
+#middle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#middle_video {
+    margin: 0px auto;
+}
+
+#middle_text {
+    margin: auto 0;
+}
+
+#middle_text h4,
+#middle_text p {
+    width: 85%;
+    margin-left: 5%;
+    margin-right: auto;
+    vertical-align: middle;
+}
