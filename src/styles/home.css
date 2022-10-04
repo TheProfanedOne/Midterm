@@ -64,7 +64,7 @@
 }
 
 #bottom_map {
-    margin: auto auto;
+    margin: auto;
 }
 
 #map_img {
@@ -76,7 +76,7 @@
     border: 1px solid #FFF;
     border-radius: 20%;
     padding: 3rem;
-    margin: auto auto;
+    margin: auto;
 }
 
 /* Figcaption styles */
